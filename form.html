@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nombre{
+            background: green;
+            color: white;
+        }
+
+        #primer-apellido{
+            background: hotpink;
+            color:khaki;
+        }
+
+        #boton{
+
+            background: red;
+            color:lawngreen;
+        }
+        #segundo{
+            background: black;
+            color: lemonchiffon;
+        }
+        form{
+
+            background: lightsalmon;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <form action="show_data.html" method="get" accept-charset="ISO-8859-1" >
+      
+      <label for="nombre">Nombre</label>  
+      <input type="text" name="nombre" id="nombre" required>
+      <br>
+      <label for="primer-apellido">Ingrese primer apellido</label>
+      <input type="text" name="primer-apellido" id="primer-apellido" placeholder="Moraga" required>
+      <label for="segundo-apellido" id="segundo">Ingrese segundo apellido</label>
+      <input type="text" name="segundo-apellido" id="segundo-apellido" required>
+      <br>
+      <input type="hidden" name="usuario-plataforma" value="catalina">
+
+      <input type="submit" value="Enviar" id="boton">
+    </form>
+<div>
+<h4>Mapa Sucre</h4>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d502396.0788623159!2d-63.82244283415405!3d10.344463654845441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c3395d207e3db05%3A0x6a06dcafbb817515!2sSucre%2C%20Venezuela!5e0!3m2!1ses!2scl!4v1641851092096!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+
+ <h4>Chacabuco 123, Buenos Aires</h4>   
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7886484533046!2d-58.37859138548671!3d-34.60950556530992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad3c23b1345%3A0x4aa5564720c4918d!2sChacabuco%20123%2C%20C1069%20AAC%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses!2scl!4v1641851394746!5m2!1ses!2scl" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+
+</body>
+</html>
